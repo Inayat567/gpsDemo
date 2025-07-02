@@ -24,8 +24,7 @@ const App = () => {
     const location = await fns.checkPermissionAndLocation();
     if (location) {
       setCoords(location);
-    } else {
-    }
+    } 
     setLoading(false);
   };
 
